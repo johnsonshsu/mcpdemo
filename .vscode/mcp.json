@@ -1,0 +1,13 @@
+{
+    "servers": {
+      "McpDemoServer": {
+        "type": "stdio",
+        "command": "dotnet",
+        "args": [
+          "run",
+          "--project",
+          "${workspaceFolder}/mcpdemo.csproj"
+        ]
+      }
+    }
+}
